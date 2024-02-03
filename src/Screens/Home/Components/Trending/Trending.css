@@ -1,0 +1,93 @@
+.home__trendingprods_section {
+  width: 100%;
+  padding: 50px 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-bottom: 1px solid grey;
+  margin-bottom: 50px;
+}
+.home__trendingprods_heading {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 59px;
+  letter-spacing: 0em;
+  text-align: center;
+  position: relative;
+}
+.home__trendingprods_hdinghighlight {
+  color: rgba(255, 0, 0, 1);
+}
+.home__trendingprods_subheading {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  letter-spacing: 0em;
+  color: rgba(0, 0, 0, 0.73);
+  margin: 10px 0;
+}
+.home__trendingprods_hcrown {
+  position: absolute;
+  left: -35px;
+  top: -20px;
+}
+.home__trendingprods_hstar {
+  position: absolute;
+  left: 125px;
+  top: -60px;
+}
+.home__trendingprods_cards {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.home__trendingprods_card {
+  margin: 10px;
+}
+.slickcarousal__arrow {
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50% !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  background: rgba(0, 0, 0, 0.73) !important;
+}
+
+.slickcarousal__arrow:hover {
+  background-color: rgba(253, 75, 75, 0.73) !important;
+}
+.home__trendprods_sourcemorebtn {
+  width: 270px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 2px rgb(228, 228, 228);
+  position: relative;
+  top: 67px;
+  background-color: white;
+  cursor: pointer;
+}
+.home__trendprods_sourcemorebtntxt {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0em;
+  padding: 0 15px;
+  color: rgba(29, 93, 199, 1);
+}
+.home__trendprods_sourcemorebtniconwrap {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: rgba(29, 93, 199, 1);
+}

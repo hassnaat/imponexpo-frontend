@@ -13,6 +13,7 @@ import PublicRoute from "./routes/PublicRoutes";
 import ProtectedRoute from "./routes/ProtectedRoutes";
 import NewPassword from "./Screens/Auth/NewPassword";
 import Register from "./Screens/Auth/Register";
+
 function App() {
   const dispatch = useDispatch();
   useEffect(() => {
